@@ -1,7 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
-
+/* mise en page de départ */
 *{padding: 0;
 margin: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;}
 
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space-Grotesk', serif;
+}
+
+
+
+.bgc{background-color:  #103571;}
+
+color{color: #4A5568;}
+
+.flex{display: flex;
+flex-wrap: wrap;}
+
+.spacebetween{justify-content: space-between;}
+
+.w50{width: 50px;}
+
+.btn{border: solid 4px; background-color: black;color: white;border-radius: 50px;padding-top: 10px; padding-bottom: 10px ;}
+
+.gap8{gap: 8px;}
+
+.w50p{width: 50%;}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* alignement et mise en place des élements */
+.mb20{margin-bottom: 20px;}
+
+.txtcenter{text-align: center;}
+
+.w40p{width: 40%;}
+
+.mb60{margin-bottom: 60px;}
+
+.card{border: 4px black solid;width: 30%;}
+
+.w30p{width: 30%;}
+
+.cardt{border: 4px transparent solid;width: 30%;}
+
+.mt20{margin-top: 20px;}
+
+.btnf{border: solid 4px; background-color: black;color: white;border-radius: 1px;padding-top: 10px; padding-bottom: 10px ;}
+
+.colunm{flex-direction: column;}
+.bgb{background-color: #b3e7ff;}
+
+.obc{object-fit:cover}
